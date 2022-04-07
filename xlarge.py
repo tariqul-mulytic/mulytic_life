@@ -4,7 +4,7 @@ import os
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
 from pydub.utils import which
-
+			'''This will convert large audio into text'''
 AudioSegment.converter = which("ffmpeg")
 # create a speech recognition object
 r = sr.Recognizer()
